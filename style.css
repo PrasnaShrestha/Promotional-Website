@@ -1,0 +1,5878 @@
+/*HOME*/
+
+/* =========================================================
+   TRINOVA CYBER AWARENESS 360°
+   EXACT HOMEPAGE STYLE
+   ========================================================= */
+
+
+/* =========================================================
+   RESET
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    color: #10182d;
+    background: #ffffff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* =========================================================
+   NAVBAR
+========================================================= */
+
+.tn-navbar {
+    width: 100%;
+    height: 91px;
+
+    background: #ffffff;
+
+    border-bottom: 1px solid #e4e8ef;
+
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.tn-navbar-inner {
+    width: 100%;
+    max-width: 1720px;
+    height: 91px;
+
+    margin: 0 auto;
+
+    padding: 0 95px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* LOGO */
+
+.tn-logo {
+    width: 105px;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    flex-shrink: 0;
+}
+
+.tn-logo img {
+    width: 75px;
+    height: 65px;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+/* NAVIGATION */
+
+.tn-navigation {
+    display: flex;
+    align-items: center;
+
+    gap: 39px;
+
+    margin-left: auto;
+    margin-right: 110px;
+}
+
+.tn-nav-link {
+    color: #293750;
+
+    font-size: 17px;
+    font-weight: 500;
+
+    white-space: nowrap;
+
+    transition: color 0.2s ease;
+}
+
+.tn-nav-link:hover {
+    color: #2867e9;
+}
+
+.tn-nav-link.active {
+    color: #2867e9;
+    font-weight: 700;
+}
+
+
+/* START TRAINING */
+
+.tn-nav-training {
+    height: 44px;
+    min-width: 156px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 22px;
+
+    background: #2867e9;
+    color: #ffffff;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    transition: background 0.2s ease;
+}
+
+.tn-nav-training:hover {
+    background: #1858d6;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.tn-hero {
+    width: 100%;
+
+    background: #ffffff;
+}
+
+.tn-hero-inner {
+    width: 100%;
+    max-width: 1720px;
+
+    min-height: 694px;
+
+    margin: 0 auto;
+
+    padding: 113px 95px 112px;
+
+    display: grid;
+
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+
+    column-gap: 70px;
+
+    align-items: center;
+}
+
+
+/* LEFT */
+
+.tn-hero-content {
+    width: 100%;
+    max-width: 730px;
+}
+
+
+/* BADGE */
+
+.tn-hero-badge {
+    display: inline-flex;
+    align-items: center;
+
+    height: 32px;
+
+    padding: 0 14px;
+
+    margin-bottom: 30px;
+
+    background: #edf5ff;
+    color: #2164ea;
+
+    border-radius: 7px;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+
+/* TITLE */
+
+.tn-hero-title {
+    margin: 0 0 18px;
+
+    color: #10182d;
+
+    font-size: 67px;
+    line-height: 1.08;
+
+    letter-spacing: -2.5px;
+
+    font-weight: 800;
+}
+
+
+/* SUBTITLE */
+
+.tn-hero-subtitle {
+    margin: 0 0 27px;
+
+    color: #397bea;
+
+    font-size: 33px;
+    line-height: 1.2;
+
+    letter-spacing: -0.5px;
+
+    font-weight: 700;
+}
+
+
+/* DESCRIPTION */
+
+.tn-hero-description {
+    max-width: 700px;
+
+    margin: 0 0 28px;
+
+    color: #3d4d66;
+
+    font-size: 18px;
+    line-height: 1.7;
+
+    font-weight: 400;
+}
+
+
+/* HERO BUTTONS */
+
+.tn-hero-buttons {
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+}
+
+
+/* COMMON */
+
+.tn-primary-button,
+.tn-secondary-button {
+    height: 55px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 31px;
+
+    border-radius: 9px;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    transition: 0.2s ease;
+}
+
+
+/* PRIMARY */
+
+.tn-primary-button {
+    min-width: 182px;
+
+    background: #2867e9;
+    color: #ffffff;
+}
+
+.tn-primary-button:hover {
+    background: #1858d6;
+}
+
+
+/* SECONDARY */
+
+.tn-secondary-button {
+    min-width: 231px;
+
+    background: #ffffff;
+
+    border: 2px solid #2867e9;
+
+    color: #2867e9;
+}
+
+.tn-secondary-button:hover {
+    background: #edf4ff;
+}
+
+
+/* HERO IMAGE */
+
+.tn-hero-image {
+    width: 100%;
+    height: 468px;
+
+    overflow: hidden;
+
+    border-radius: 13px;
+}
+
+.tn-hero-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    display: block;
+}
+
+
+/* =========================================================
+   PROMISE
+========================================================= */
+
+.tn-promise {
+    width: 100%;
+
+    background: #edf5ff;
+
+    padding: 84px 95px 94px;
+}
+
+.tn-section-heading {
+    text-align: center;
+
+    margin-bottom: 57px;
+}
+
+.tn-small-title {
+    margin-bottom: 10px;
+
+    color: #2867e9;
+
+    font-size: 14px;
+    line-height: 1.2;
+
+    font-weight: 700;
+}
+
+.tn-section-heading h2 {
+    margin: 0;
+
+    color: #10182d;
+
+    font-size: 39px;
+    line-height: 1.2;
+
+    letter-spacing: -1px;
+
+    font-weight: 800;
+}
+
+
+/* PROMISE GRID */
+
+.tn-promise-grid {
+    width: 100%;
+    max-width: 1600px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 28px;
+}
+
+
+/* CARD */
+
+.tn-promise-card {
+    min-height: 245px;
+
+    padding: 39px 39px 34px;
+
+    background: #ffffff;
+
+    border-radius: 14px;
+
+    box-shadow: 0 7px 25px rgba(31, 72, 130, 0.07);
+}
+
+
+/* ICON */
+
+.tn-icon-box {
+    width: 56px;
+    height: 56px;
+
+    margin-bottom: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #edf5ff;
+
+    border-radius: 9px;
+
+    color: #2867e9;
+
+    font-size: 27px;
+    font-weight: 700;
+}
+
+
+/* CARD TITLE */
+
+.tn-promise-card h3 {
+    margin: 0 0 8px;
+
+    color: #10182d;
+
+    font-size: 25px;
+    line-height: 1.25;
+
+    font-weight: 700;
+}
+
+
+/* CARD TEXT */
+
+.tn-promise-card p {
+    margin: 0;
+
+    color: #40506a;
+
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+   WHY CHOOSE TRINOVA
+========================================================= */
+
+.tn-why {
+    width: 100%;
+
+    background: #ffffff;
+
+    padding: 49px 95px 68px;
+}
+
+.tn-why-inner {
+    width: 100%;
+    max-width: 1600px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: 0.85fr 1.15fr;
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+
+/* LEFT */
+
+.tn-why-left {
+    padding-top: 20px;
+}
+
+.tn-why-left .tn-small-title {
+    margin-bottom: 28px;
+}
+
+.tn-why-left h2 {
+    max-width: 590px;
+
+    margin: 0 0 27px;
+
+    color: #10182d;
+
+    font-size: 45px;
+    line-height: 1.16;
+
+    letter-spacing: -1.5px;
+
+    font-weight: 800;
+}
+
+.tn-why-left p {
+    max-width: 600px;
+
+    margin: 0;
+
+    color: #40506a;
+
+    font-size: 17px;
+    line-height: 1.65;
+}
+
+
+/* RIGHT GRID */
+
+.tn-why-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+
+/* FEATURE */
+
+.tn-feature-card {
+    min-height: 200px;
+
+    padding: 28px;
+
+    background: #edf5ff;
+
+    border-radius: 14px;
+}
+
+
+/* FEATURE ICON */
+
+.tn-feature-icon {
+    width: 48px;
+    height: 48px;
+
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffffff;
+
+    border-radius: 9px;
+
+    color: #2867e9;
+
+    font-size: 24px;
+}
+
+
+/* FEATURE TITLE */
+
+.tn-feature-card h3 {
+    margin: 0 0 7px;
+
+    color: #10182d;
+
+    font-size: 19px;
+    line-height: 1.3;
+
+    font-weight: 700;
+}
+
+
+/* FEATURE TEXT */
+
+.tn-feature-card p {
+    margin: 0;
+
+    color: #40506a;
+
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+   TRAINING
+========================================================= */
+
+.tn-training {
+    width: 100%;
+
+    background: #edf5ff;
+
+    padding: 92px 95px 92px;
+}
+
+.tn-training .tn-section-heading {
+    margin-bottom: 57px;
+}
+
+
+/* TRAINING GRID */
+
+.tn-training-grid {
+    width: 100%;
+    max-width: 1600px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 27px;
+}
+
+
+/* TRAINING CARD */
+
+.tn-training-card {
+    min-height: 262px;
+
+    padding: 32px;
+
+    background: #ffffff;
+
+    border-radius: 14px;
+
+    box-shadow: 0 6px 20px rgba(31, 72, 130, 0.06);
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* TRAINING ICON */
+
+.tn-training-icon {
+    width: 56px;
+    height: 56px;
+
+    margin-bottom: 19px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #edf5ff;
+
+    border-radius: 9px;
+
+    color: #2867e9;
+
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+/* TRAINING TITLE */
+
+.tn-training-card h3 {
+    margin: 0 0 7px;
+
+    color: #10182d;
+
+    font-size: 21px;
+    line-height: 1.3;
+
+    font-weight: 700;
+}
+
+
+/* TRAINING TEXT */
+
+.tn-training-card p {
+    margin: 0 0 17px;
+
+    color: #40506a;
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* MODULE BUTTON */
+
+.tn-module-button {
+    width: 100%;
+    height: 44px;
+
+    margin-top: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #edf5ff;
+
+    color: #2867e9;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   PLACEHOLDER SECTIONS
+========================================================= */
+
+.tn-demo-placeholder,
+.tn-quiz-placeholder {
+    min-height: 1px;
+
+    padding: 0;
+
+    margin: 0;
+
+    overflow: hidden;
+}
+
+.tn-demo-placeholder h2,
+.tn-quiz-placeholder h2 {
+    display: none;
+}
+
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.tn-cta {
+    width: 100%;
+
+    min-height: 410px;
+
+    background: #0e172c;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 91px 30px 70px;
+}
+
+.tn-cta-inner {
+    max-width: 850px;
+}
+
+.tn-cta h2 {
+    margin: 0 0 25px;
+
+    color: #ffffff;
+
+    font-size: 39px;
+    line-height: 1.2;
+
+    letter-spacing: -1px;
+
+    font-weight: 800;
+}
+
+.tn-cta p {
+    max-width: 760px;
+
+    margin: 0 auto 28px;
+
+    color: #71819c;
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.tn-cta-button {
+    min-width: 225px;
+    height: 55px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #2867e9;
+
+    color: #ffffff;
+
+    border-radius: 9px;
+
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.tn-footer {
+    width: 100%;
+
+    background: #0e172c;
+
+    color: #71819c;
+
+    padding: 0 95px 34px;
+}
+
+.tn-footer-content {
+    width: 100%;
+    max-width: 1600px;
+
+    margin: 0 auto;
+
+    padding-top: 32px;
+
+    display: grid;
+
+    grid-template-columns: 1.35fr 0.8fr 0.8fr;
+
+    gap: 100px;
+}
+
+
+/* FOOTER LOGO */
+
+.tn-footer-logo {
+    display: block;
+
+    width: 90px;
+    height: 70px;
+
+    margin-bottom: 9px;
+}
+
+.tn-footer-logo img {
+    width: 75px;
+    height: 65px;
+
+    object-fit: contain;
+}
+
+
+/* FOOTER BRAND TEXT */
+
+.tn-footer-brand p {
+    max-width: 360px;
+
+    margin: 0 0 16px;
+
+    color: #71819c;
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.tn-footer-brand strong {
+    color: #3980ed;
+
+    font-size: 16px;
+}
+
+
+/* FOOTER HEADINGS */
+
+.tn-footer-links h3,
+.tn-footer-contact h3 {
+    margin: 0 0 20px;
+
+    color: #ffffff;
+
+    font-size: 17px;
+    font-weight: 700;
+}
+
+
+/* LINKS */
+
+.tn-footer-links {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.tn-footer-links a {
+    color: #71819c;
+
+    font-size: 16px;
+
+    transition: color 0.2s ease;
+}
+
+.tn-footer-links a:hover {
+    color: #3980ed;
+}
+
+
+/* CONTACT */
+
+.tn-footer-contact p {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    margin: 0 0 15px;
+
+    color: #71819c;
+
+    font-size: 16px;
+}
+
+.tn-footer-contact p span {
+    color: #3980ed;
+
+    font-size: 19px;
+}
+
+
+/* FOOTER BOTTOM */
+
+.tn-footer-bottom {
+    width: 100%;
+    max-width: 1600px;
+
+    margin: 42px auto 0;
+
+    padding-top: 25px;
+
+    border-top: 1px solid rgba(255,255,255,0.08);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tn-footer-bottom p {
+    margin: 0;
+
+    color: #71819c;
+
+    font-size: 15px;
+}
+
+.tn-footer-bottom div {
+    display: flex;
+    gap: 24px;
+}
+
+.tn-footer-bottom a {
+    color: #71819c;
+
+    font-size: 15px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1250px) {
+
+    .tn-navbar-inner {
+        padding: 0 50px;
+    }
+
+    .tn-navigation {
+        gap: 25px;
+        margin-right: 40px;
+    }
+
+    .tn-hero-inner {
+        padding-left: 60px;
+        padding-right: 60px;
+        column-gap: 45px;
+    }
+
+    .tn-hero-title {
+        font-size: 57px;
+    }
+
+    .tn-promise,
+    .tn-why,
+    .tn-training {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .tn-footer {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+    .tn-navbar-inner {
+        padding: 0 30px;
+    }
+
+    .tn-navigation {
+        gap: 18px;
+        margin-right: 20px;
+    }
+
+    .tn-nav-link {
+        font-size: 14px;
+    }
+
+    .tn-nav-training {
+        min-width: 135px;
+        font-size: 14px;
+    }
+
+
+    /* HERO */
+
+    .tn-hero-inner {
+        grid-template-columns: 1fr;
+
+        row-gap: 50px;
+
+        padding: 75px 45px;
+    }
+
+    .tn-hero-content {
+        max-width: 750px;
+    }
+
+    .tn-hero-image {
+        height: 420px;
+    }
+
+
+    /* PROMISE */
+
+    .tn-promise-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* WHY */
+
+    .tn-why-inner {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* TRAINING */
+
+    .tn-training-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* FOOTER */
+
+    .tn-footer-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .tn-navbar {
+        height: auto;
+    }
+
+    .tn-navbar-inner {
+        min-height: 78px;
+
+        padding: 12px 20px;
+    }
+
+    .tn-navigation {
+        display: none;
+    }
+
+
+    /* HERO */
+
+    .tn-hero-inner {
+        padding: 60px 25px 70px;
+    }
+
+    .tn-hero-title {
+        font-size: 47px;
+        letter-spacing: -1.5px;
+    }
+
+    .tn-hero-subtitle {
+        font-size: 27px;
+    }
+
+    .tn-hero-description {
+        font-size: 16px;
+    }
+
+    .tn-hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .tn-primary-button,
+    .tn-secondary-button {
+        width: 100%;
+    }
+
+    .tn-hero-image {
+        height: 310px;
+    }
+
+
+    /* SECTIONS */
+
+    .tn-promise,
+    .tn-why,
+    .tn-training {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .tn-section-heading h2 {
+        font-size: 32px;
+    }
+
+    .tn-why-left h2 {
+        font-size: 37px;
+    }
+
+
+    /* TRAINING */
+
+    .tn-training-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* FOOTER */
+
+    .tn-footer {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .tn-footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .tn-footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+
+
+/* ================================
+   ABOUT PAGE
+================================ */
+
+.about-hero {
+    text-align: center;
+    padding: 90px 20px 85px;
+    background: #ffffff;
+}
+
+.section-tag {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 8px;
+    background: #edf5ff;
+    color: #1769ff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.about-hero h1 {
+    margin: 30px 0 25px;
+    font-size: 46px;
+    line-height: 1.15;
+    color: #111a30;
+    font-weight: 750;
+}
+
+.about-hero p {
+    max-width: 850px;
+    margin: auto;
+    color: #40506b;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* ================================
+   MISSION / VISION
+================================ */
+
+.mission-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    padding: 75px 8%;
+    background: #eef6ff;
+}
+
+.info-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 35px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 8px 25px rgba(30, 70, 120, 0.06);
+}
+
+.info-icon {
+    min-width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    background: #edf5ff;
+    color: #1769ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.info-card h2 {
+    margin: 5px 0 18px;
+    color: #111a30;
+    font-size: 25px;
+}
+
+.info-card p {
+    margin: 0;
+    color: #40506b;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+
+/* ================================
+   FOUR PILLARS
+================================ */
+
+.pillars-section {
+    padding: 85px 8%;
+    background: #ffffff;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-heading h2 {
+    margin-top: 18px;
+    color: #111a30;
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+.pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+}
+
+.pillar-card {
+    background: #edf6ff;
+    border-radius: 15px;
+    padding: 30px;
+    min-height: 190px;
+}
+
+.pillar-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 9px;
+    background: #ffffff;
+    color: #1769ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.pillar-card h3 {
+    color: #111a30;
+    font-size: 21px;
+    margin: 0 0 12px;
+}
+
+.pillar-card p {
+    color: #40506b;
+    line-height: 1.55;
+    margin: 0;
+}
+
+
+/* ================================
+   TEAM
+================================ */
+
+.team-section {
+    padding: 85px 8%;
+    background: #eef6ff;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.team-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 28px 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(30, 70, 120, 0.06);
+}
+
+.team-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 22px;
+}
+
+.team-card h3 {
+    margin: 0 0 7px;
+    color: #111a30;
+    font-size: 21px;
+}
+
+.team-card span {
+    color: #2875ff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.team-card hr {
+    border: 0;
+    border-top: 1px solid #e1e7f0;
+    margin: 15px 0;
+}
+
+.team-card p {
+    margin: 0;
+    color: #40506b;
+    font-size: 14px;
+}
+
+
+/* ================================
+   FOOTER
+================================ */
+
+.site-footer {
+    background: #0d1529;
+    color: #ffffff;
+    padding: 70px 8% 25px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 80px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.footer-brand img {
+    width: 115px;
+    height: 70px;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-brand p {
+    max-width: 420px;
+    color: #8190aa;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.footer-brand strong {
+    color: #2875ff;
+    font-size: 17px;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    margin: 0 0 22px;
+    font-size: 18px;
+}
+
+.footer-links a {
+    display: block;
+    color: #8190aa;
+    text-decoration: none;
+    margin-bottom: 18px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.footer-links a:hover {
+    color: #2875ff;
+}
+
+.footer-contact p {
+    color: #8190aa;
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    max-width: 1400px;
+    margin: 55px auto 0;
+    padding-top: 25px;
+    border-top: 1px solid #202b42;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #71809a;
+}
+
+.footer-bottom a {
+    color: #71809a;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.footer-bottom a:hover {
+    color: #2875ff;
+}
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 1000px) {
+
+    .pillars-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .about-hero h1 {
+        font-size: 34px;
+    }
+
+    .mission-section {
+        grid-template-columns: 1fr;
+        padding: 55px 5%;
+    }
+
+    .pillars-section,
+    .team-section {
+        padding: 60px 5%;
+    }
+
+    .pillars-grid,
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+.top-navbar {
+    width: 100%;
+    height: 82px;
+    background: #ffffff;
+    border-bottom: 1px solid #e7ebf2;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar-inner {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.brand img {
+    width: 105px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    margin-left: auto;
+    margin-right: 55px;
+}
+
+.main-nav a {
+    color: #34415a;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: 0.2s ease;
+}
+
+.main-nav a:hover {
+    color: #2468ed;
+}
+
+.main-nav a.current {
+    color: #2468ed;
+    font-weight: 600;
+}
+
+.start-btn {
+    background: #2867e8;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 13px 23px;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+    box-shadow: 0 3px 8px rgba(40, 103, 232, 0.18);
+    transition: 0.2s ease;
+}
+
+.start-btn:hover {
+    background: #1558d7;
+}
+
+
+/* Tablet */
+@media (max-width: 1050px) {
+    .navbar-inner {
+        padding: 0 4%;
+    }
+
+    .main-nav {
+        gap: 22px;
+        margin-right: 25px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 800px) {
+    .top-navbar {
+        height: auto;
+    }
+
+    .navbar-inner {
+        padding: 15px 5%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .brand {
+        margin-right: auto;
+    }
+
+    .main-nav {
+        width: 100%;
+        order: 3;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+        gap: 18px;
+    }
+}
+
+
+/* Small Mobile */
+@media (max-width: 500px) {
+    .start-btn {
+        padding: 10px 15px;
+    }
+
+    .main-nav a {
+        font-size: 14px;
+    }
+}
+
+/*TRAINING STYLE*/
+
+/* =========================================================
+   TRINOVA TRAINING PAGE
+   ALL CLASSES ARE PREFIXED WITH tnv-
+========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #05070d;
+
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.tnv-training-page {
+    width: 95%;
+    margin: 0 auto;
+
+    background: #ffffff;
+    color: #111827;
+
+    overflow: hidden;
+}
+
+.tnv-training-page a {
+    text-decoration: none;
+}
+
+.tnv-training-page button {
+    font-family: inherit;
+}
+
+
+/* =========================================================
+   NAVBAR
+========================================================= */
+
+.tnv-navbar {
+    width: 100%;
+    height: 92px;
+
+    background: #ffffff;
+
+    border-bottom: 1px solid #e5eaf1;
+
+    position: relative;
+    z-index: 100;
+}
+
+.tnv-navbar-inner {
+    width: calc(100% - 184px);
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tnv-logo-link {
+    width: 105px;
+
+    display: flex;
+    align-items: center;
+}
+
+.tnv-logo {
+    width: 72px;
+    height: auto;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+
+/* NAV LINKS */
+
+.tnv-nav {
+    display: flex;
+    align-items: center;
+
+    gap: 39px;
+
+    margin-left: 95px;
+}
+
+.tnv-nav-link {
+    position: relative;
+
+    color: #344054;
+
+    font-size: 17px;
+    line-height: 1;
+
+    font-weight: 500;
+
+    padding: 37px 0 34px;
+
+    transition: color 0.2s ease;
+}
+
+.tnv-nav-link:hover {
+    color: #2864e8;
+}
+
+.tnv-nav-link.tnv-active {
+    color: #2864e8;
+    font-weight: 600;
+}
+
+
+/* START TRAINING */
+
+.tnv-start-training {
+    min-width: 155px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 23px;
+
+    border-radius: 11px;
+
+    background: #2864e8;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: 0.2s ease;
+}
+
+.tnv-start-training:hover {
+    background: #1f57d2;
+}
+
+
+/* MOBILE MENU */
+
+.tnv-mobile-menu {
+    display: none;
+
+    width: 42px;
+    height: 40px;
+
+    padding: 0;
+
+    border: 0;
+    background: transparent;
+}
+
+.tnv-mobile-menu span {
+    display: block;
+
+    width: 25px;
+    height: 2px;
+
+    margin: 5px auto;
+
+    background: #111827;
+}
+
+
+/* =========================================================
+   TRAINING INTRO
+========================================================= */
+
+.tnv-training-intro {
+    min-height: 391px;
+
+    background: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.tnv-training-intro-inner {
+    width: 100%;
+    max-width: 1100px;
+
+    padding: 67px 25px 62px;
+}
+
+
+/* BLUE LABEL */
+
+.tnv-training-tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 32px;
+
+    padding: 0 15px;
+
+    border-radius: 7px;
+
+    background: #eff6ff;
+    color: #2864e8;
+
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+/* MAIN TITLE */
+
+.tnv-training-intro h1 {
+    margin: 31px 0 27px;
+
+    color: #111827;
+
+    font-size: 47px;
+    line-height: 1.08;
+
+    font-weight: 800;
+
+    letter-spacing: -1.2px;
+}
+
+
+/* DESCRIPTION */
+
+.tnv-training-intro p {
+    margin: 0;
+
+    color: #40516a;
+
+    font-size: 19px;
+    line-height: 1.55;
+
+    font-weight: 400;
+}
+
+
+/* =========================================================
+   MODULE BACKGROUND
+========================================================= */
+
+.tnv-modules {
+    padding: 94px 0 96px;
+
+    background: #edf5ff;
+}
+
+.tnv-modules-grid {
+    width: calc(100% - 184px);
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    column-gap: 28px;
+    row-gap: 28px;
+}
+
+
+/* =========================================================
+   MODULE CARD
+========================================================= */
+
+.tnv-module {
+    min-width: 0;
+
+    background: #ffffff;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 3px 10px rgba(16, 24, 40, 0.035);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.tnv-module:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 12px 30px rgba(16, 24, 40, 0.08);
+}
+
+
+/* =========================================================
+   CARD HEADER
+========================================================= */
+
+.tnv-module-header {
+    height: 140px;
+
+    padding: 0 29px;
+
+    background: #10182d;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tnv-module-number {
+    color: #2864e8;
+
+    font-size: 44px;
+    line-height: 1;
+
+    font-weight: 800;
+
+    letter-spacing: -1px;
+}
+
+.tnv-module-icon {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #2864e8;
+}
+
+.tnv-module-icon svg {
+    width: 46px;
+    height: 46px;
+
+    display: block;
+}
+
+
+/* =========================================================
+   CARD BODY
+========================================================= */
+
+.tnv-module-body {
+    min-height: 268px;
+
+    padding: 28px 29px 27px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* META */
+
+.tnv-module-meta {
+    min-height: 25px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 9px;
+}
+
+.tnv-level {
+    min-height: 25px;
+
+    padding: 0 10px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.tnv-beginner {
+    background: #e0f2fe;
+    color: #2864e8;
+}
+
+.tnv-intermediate {
+    background: #fff2c9;
+    color: #ee8a00;
+}
+
+.tnv-time {
+    color: #6c7b91;
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tnv-time span {
+    font-size: 18px;
+}
+
+
+/* CARD TITLE */
+
+.tnv-module-body h2 {
+    margin: 12px 0 9px;
+
+    color: #111827;
+
+    font-size: 21px;
+    line-height: 1.25;
+
+    font-weight: 800;
+
+    letter-spacing: -0.3px;
+}
+
+
+/* CARD DESCRIPTION */
+
+.tnv-module-body p {
+    margin: 0;
+
+    color: #40516a;
+
+    font-size: 16px;
+    line-height: 1.48;
+
+    font-weight: 400;
+}
+
+
+/* BUTTON */
+
+.tnv-module-button {
+    width: 100%;
+    height: 49px;
+
+    margin-top: auto;
+
+    border: 0;
+    outline: 0;
+
+    border-radius: 9px;
+
+    background: #2864e8;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: 0.2s ease;
+}
+
+.tnv-module-button:hover {
+    background: #1f57d2;
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   PROGRESS
+========================================================= */
+
+.tnv-progress {
+    padding: 74px 0 70px;
+
+    background: #ffffff;
+}
+
+.tnv-progress-inner {
+    width: calc(100% - 184px);
+
+    margin: 0 auto;
+}
+
+.tnv-progress-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin-bottom: 27px;
+}
+
+.tnv-progress-heading h3 {
+    margin: 0 0 5px;
+
+    color: #111827;
+
+    font-size: 21px;
+    line-height: 1.25;
+
+    font-weight: 800;
+}
+
+.tnv-progress-heading p {
+    margin: 0;
+
+    color: #6c7b91;
+
+    font-size: 16px;
+}
+
+.tnv-progress-heading strong {
+    padding-top: 7px;
+
+    color: #2864e8;
+
+    font-size: 22px;
+
+    font-weight: 800;
+}
+
+
+/* BAR */
+
+.tnv-progress-bar {
+    width: 100%;
+    height: 14px;
+
+    overflow: hidden;
+
+    border-radius: 20px;
+
+    background: #edf3fb;
+}
+
+.tnv-progress-fill {
+    width: 66.6667%;
+    height: 100%;
+
+    border-radius: 20px;
+
+    background: #2864e8;
+}
+
+
+/* =========================================================
+   QUIZ CTA
+========================================================= */
+
+.tnv-quiz-cta {
+    min-height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #10182d;
+
+    text-align: center;
+}
+
+.tnv-quiz-cta-inner {
+    width: 100%;
+
+    padding: 70px 25px 75px;
+}
+
+.tnv-quiz-cta h2 {
+    margin: 0 0 27px;
+
+    color: #ffffff;
+
+    font-size: 38px;
+    line-height: 1.2;
+
+    font-weight: 800;
+
+    letter-spacing: -0.7px;
+}
+
+.tnv-quiz-cta p {
+    margin: 0 auto 31px;
+
+    color: #70819b;
+
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.tnv-quiz-button {
+    width: 200px;
+    height: 55px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9px;
+
+    background: #3d84f4;
+    color: #ffffff;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    transition: 0.2s ease;
+}
+
+.tnv-quiz-button:hover {
+    background: #286fe0;
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.tnv-footer {
+    background: #10182d;
+
+    color: #ffffff;
+}
+
+
+/* FOOTER TOP */
+
+.tnv-footer-top {
+    width: calc(100% - 184px);
+
+    min-height: 330px;
+
+    margin: 0 auto;
+
+    padding: 62px 0 48px;
+
+    display: grid;
+
+    grid-template-columns:
+        1.55fr 1fr 1fr;
+
+    column-gap: 90px;
+
+    border-top: 1px solid #29344b;
+    border-bottom: 1px solid #29344b;
+}
+
+
+/* BRAND */
+
+.tnv-footer-brand {
+    max-width: 400px;
+}
+
+.tnv-footer-logo {
+    width: 72px;
+    height: auto;
+
+    display: block;
+
+    margin-bottom: 21px;
+}
+
+.tnv-footer-brand p {
+    margin: 0 0 20px;
+
+    color: #71819a;
+
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.tnv-footer-brand strong {
+    color: #3d84f4;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* FOOTER LINKS */
+
+.tnv-footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tnv-footer-column h3 {
+    margin: 4px 0 19px;
+
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tnv-footer-column a {
+    margin-bottom: 16px;
+
+    color: #71819a;
+
+    font-size: 16px;
+
+    transition: color 0.2s ease;
+}
+
+.tnv-footer-column a:hover {
+    color: #3d84f4;
+}
+
+
+/* CONTACT */
+
+.tnv-footer-contact p {
+    margin: 0 0 18px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    color: #71819a;
+
+    font-size: 16px;
+}
+
+.tnv-footer-contact p span {
+    color: #3d84f4;
+
+    font-size: 19px;
+}
+
+
+/* FOOTER BOTTOM */
+
+.tnv-footer-bottom {
+    width: calc(100% - 184px);
+
+    min-height: 102px;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tnv-footer-bottom p {
+    margin: 0;
+
+    color: #71819a;
+
+    font-size: 15px;
+}
+
+.tnv-footer-bottom div {
+    display: flex;
+    gap: 31px;
+}
+
+.tnv-footer-bottom a {
+    color: #71819a;
+
+    font-size: 15px;
+}
+
+
+/* =========================================================
+   MODAL
+========================================================= */
+
+.tnv-modal {
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 9999;
+
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 25px;
+
+    background: rgba(8, 13, 25, 0.72);
+}
+
+.tnv-modal.tnv-open {
+    display: flex;
+}
+
+.tnv-modal-box {
+    width: 100%;
+    max-width: 500px;
+
+    position: relative;
+
+    padding: 42px;
+
+    border-radius: 16px;
+
+    background: #ffffff;
+
+    text-align: center;
+}
+
+.tnv-modal-box h2 {
+    margin: 18px 0 12px;
+
+    color: #111827;
+
+    font-size: 29px;
+
+    font-weight: 800;
+}
+
+.tnv-modal-box p {
+    margin: 0 0 27px;
+
+    color: #66758c;
+
+    font-size: 16px;
+}
+
+.tnv-modal-close {
+    position: absolute;
+
+    top: 13px;
+    right: 17px;
+
+    width: 35px;
+    height: 35px;
+
+    border: 0;
+
+    background: transparent;
+
+    color: #66758c;
+
+    font-size: 29px;
+}
+
+.tnv-modal-button {
+    height: 50px;
+
+    padding: 0 25px;
+
+    border: 0;
+    border-radius: 9px;
+
+    background: #2864e8;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1250px) {
+
+    .tnv-navbar-inner,
+    .tnv-modules-grid,
+    .tnv-progress-inner,
+    .tnv-footer-top,
+    .tnv-footer-bottom {
+        width: calc(100% - 90px);
+    }
+
+    .tnv-nav {
+        gap: 25px;
+        margin-left: 20px;
+    }
+
+    .tnv-modules-grid {
+        column-gap: 20px;
+    }
+
+    .tnv-module-header {
+        padding: 0 23px;
+    }
+
+    .tnv-module-body {
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+
+    .tnv-footer-top {
+        column-gap: 45px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 950px) {
+
+    .tnv-navbar {
+        height: 76px;
+    }
+
+    .tnv-navbar-inner {
+        width: calc(100% - 45px);
+    }
+
+    .tnv-nav {
+        display: none;
+
+        position: absolute;
+
+        top: 76px;
+        left: 0;
+        right: 0;
+
+        width: 100%;
+
+        margin: 0;
+
+        padding: 15px 30px 25px;
+
+        background: #ffffff;
+
+        border-bottom: 1px solid #e5eaf1;
+
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 0;
+    }
+
+    .tnv-nav.tnv-mobile-open {
+        display: flex;
+    }
+
+    .tnv-nav-link {
+        width: 100%;
+
+        padding: 15px 0;
+
+        font-size: 16px;
+    }
+
+    .tnv-start-training {
+        margin-left: auto;
+        margin-right: 12px;
+
+        min-width: 135px;
+        height: 42px;
+    }
+
+    .tnv-mobile-menu {
+        display: block;
+    }
+
+    .tnv-modules-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .tnv-footer-top {
+        grid-template-columns: 1fr 1fr;
+
+        row-gap: 45px;
+    }
+
+    .tnv-footer-contact {
+        grid-column: 1 / -1;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+    .tnv-training-page {
+        width: 100%;
+    }
+
+    .tnv-navbar-inner,
+    .tnv-modules-grid,
+    .tnv-progress-inner,
+    .tnv-footer-top,
+    .tnv-footer-bottom {
+        width: calc(100% - 36px);
+    }
+
+    .tnv-start-training {
+        display: none;
+    }
+
+    .tnv-training-intro {
+        min-height: 330px;
+    }
+
+    .tnv-training-intro-inner {
+        padding: 55px 18px;
+    }
+
+    .tnv-training-intro h1 {
+        margin-top: 25px;
+        margin-bottom: 20px;
+
+        font-size: 35px;
+    }
+
+    .tnv-training-intro p {
+        font-size: 16px;
+    }
+
+    .tnv-desktop-only {
+        display: none;
+    }
+
+    .tnv-modules {
+        padding: 55px 0;
+    }
+
+    .tnv-modules-grid {
+        grid-template-columns: 1fr;
+
+        row-gap: 22px;
+    }
+
+    .tnv-module-header {
+        height: 125px;
+    }
+
+    .tnv-progress {
+        padding: 55px 0;
+    }
+
+    .tnv-progress-heading {
+        gap: 15px;
+    }
+
+    .tnv-progress-heading strong {
+        font-size: 18px;
+        white-space: nowrap;
+    }
+
+    .tnv-quiz-cta h2 {
+        font-size: 30px;
+    }
+
+    .tnv-quiz-cta p {
+        font-size: 16px;
+    }
+
+    .tnv-footer-top {
+        width: calc(100% - 36px);
+
+        grid-template-columns: 1fr;
+
+        row-gap: 40px;
+
+        padding: 50px 0 35px;
+    }
+
+    .tnv-footer-contact {
+        grid-column: auto;
+    }
+
+    .tnv-footer-bottom {
+        width: calc(100% - 36px);
+
+        min-height: auto;
+
+        padding: 25px 0;
+
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 18px;
+    }
+
+    .tnv-footer-bottom div {
+        gap: 20px;
+    }
+}
+
+
+/* Team section layout only */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Social links inside each team card */
+.team-grid .team-card .team-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.team-grid .team-card .team-social-links a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.team-grid .team-card .team-social-links a:hover {
+    color: #0f172a;
+    text-decoration: underline;
+}
+
+/* Responsive layout */
+@media (max-width: 1100px) {
+    .team-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .team-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+
+
+
+/*CONTACT PAGE*/
+/* =========================================
+   TRINOVA CYBER AWARENESS 360
+   CONTACT PAGE
+========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+/* =========================================
+   GLOBAL
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", Arial, sans-serif;
+    color: #111a30;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+input,
+textarea {
+    font-family: inherit;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar {
+    width: 100%;
+    height: 84px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 8%;
+
+    background: #ffffff;
+
+    border-bottom: 1px solid #e4e9f1;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+}
+.nav-container {
+     width: 100%;
+    max-width: 1590px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 46px;
+    box-sizing: border-box;
+}
+
+
+/* Logo */
+.logo {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    margin-left: -15px;
+}
+
+.logo img {
+    width: 78px;
+    max-height: 62px;
+    object-fit: contain;
+    margin-left: -15px;
+}
+
+/* .logo {
+    font-size: 18px;
+    font-weight: 800;
+
+    color: #111a30;
+
+    letter-spacing: 1px;
+
+    position: relative;
+} */
+
+/* .logo::before {
+    content: "T";
+
+    color: #1769e8;
+
+    font-size: 30px;
+    font-style: italic;
+
+    margin-right: 4px;
+} */
+
+
+/* Navigation */
+
+.navbar nav {
+    margin-left: auto;
+    margin-right: 45px;
+}
+
+.navbar nav ul {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+
+    gap: 38px;
+}
+
+.navbar nav ul li a {
+    color: #293750;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.navbar nav ul li a:hover {
+    color: #2864e8;
+}
+
+.navbar nav ul li a.active {
+    color: #2864e8;
+    font-weight: 700;
+}
+
+
+/* Start Training */
+
+.btn {
+    border: none;
+
+    background: #2864e8;
+
+    color: white;
+
+    padding: 13px 25px;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1e53ca;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero {
+    min-height: 345px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 60px 20px;
+}
+
+
+/* Small blue label */
+
+.tag {
+    background: #eef5ff;
+
+    color: #2864e8;
+
+    padding: 8px 15px;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    font-weight: 800;
+}
+
+
+/* Main heading */
+
+.hero h1 {
+    margin-top: 27px;
+
+    font-size: 50px;
+
+    line-height: 1.1;
+
+    letter-spacing: -2px;
+
+    color: #10192e;
+}
+
+
+/* Description */
+
+.hero p {
+    margin-top: 28px;
+
+    max-width: 800px;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    color: #3d4c65;
+}
+
+
+/* =========================================
+   CONTACT SECTION
+========================================= */
+
+/* =========================================
+   CONTACT SECTION
+========================================= */
+
+.contact-section {
+    background: #eef6ff;
+
+    padding: 88px 8% 35px;
+
+    display: grid;
+
+    grid-template-columns: 1.45fr 0.9fr;
+
+    gap: 52px;
+}
+
+
+
+/* =========================================
+   CONTACT FORM
+========================================= */
+
+.form-box {
+    background: white;
+
+    border-radius: 14px;
+
+    padding: 45px;
+
+    box-shadow:
+        0 5px 20px rgba(40, 70, 110, 0.06);
+}
+
+
+.form-box h2 {
+    font-size: 29px;
+
+    margin-bottom: 30px;
+
+    color: #10192e;
+}
+
+
+form {
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+form label {
+    font-size: 16px;
+
+    font-weight: 700;
+
+    color: #35445b;
+
+    margin-bottom: 8px;
+}
+
+
+form input,
+form textarea {
+    width: 100%;
+
+    border: 1px solid #d8e3f0;
+
+    border-radius: 7px;
+
+    background: #eff6ff;
+
+    padding: 15px;
+
+    color: #253650;
+
+    font-size: 15px;
+
+    outline: none;
+
+    margin-bottom: 20px;
+
+    transition: 0.3s;
+}
+
+
+form input {
+    height: 50px;
+}
+
+
+form textarea {
+    height: 142px;
+
+    resize: vertical;
+}
+
+
+form input:focus,
+form textarea:focus {
+    border-color: #2864e8;
+
+    box-shadow:
+        0 0 0 3px rgba(40, 100, 232, 0.08);
+}
+
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #6a7e9c;
+}
+
+
+/* =========================================
+   SEND BUTTON
+========================================= */
+
+.submit-btn {
+    width: 100%;
+
+    height: 56px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background: #2864e8;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    margin-top: 8px;
+
+    transition: 0.3s;
+}
+
+
+.submit-btn:hover {
+    background: #1d52ca;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   RIGHT CONTACT CARDS
+========================================= */
+
+.right {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 26px;
+}
+
+
+.card {
+    background: white;
+
+    min-height: 168px;
+
+    border-radius: 14px;
+
+    padding: 30px;
+
+    box-shadow:
+        0 5px 20px rgba(40, 70, 110, 0.05);
+}
+
+
+/* =========================================
+   ICONS
+========================================= */
+
+.card i {
+    width: 46px;
+
+    height: 46px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #eef5ff;
+
+    color: #2864e8;
+
+    border-radius: 9px;
+
+    font-size: 21px;
+
+    margin-bottom: 15px;
+}
+
+
+.card h4 {
+    color: #687791;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    margin-bottom: 5px;
+}
+
+
+.card p {
+    color: #10192e;
+
+    font-size: 20px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================
+   SOCIAL CARD
+========================================= */
+
+.social-card {
+    background: white;
+
+    min-height: 108px;
+
+    border-radius: 14px;
+
+    padding: 25px 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    box-shadow:
+        0 5px 20px rgba(40, 70, 110, 0.05);
+}
+
+
+.social-card span {
+    font-weight: 700;
+
+    color: #111a30;
+}
+
+
+.socials {
+    display: flex;
+
+    gap: 12px;
+}
+
+
+.socials a {
+    width: 43px;
+
+    height: 43px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #eef5ff;
+
+    color: #2864e8;
+
+    border-radius: 8px;
+
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+
+.socials a:hover {
+    background: #2864e8;
+
+    color: white;
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   MAP
+========================================= */
+
+.map {
+    background: #eef6ff;
+
+    padding: 0 8% 60px;
+}
+
+
+.map img {
+    width: 100%;
+
+    height: 370px;
+
+    object-fit: cover;
+
+    display: block;
+
+    border-radius: 15px;
+}
+
+/* =========================================
+   FAQ SECTION
+========================================= */
+
+.faq {
+    padding: 20px 0 63px;
+    background: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* =========================================
+   FAQ TITLE
+========================================= */
+
+.title {
+    text-align:  center;
+    
+    margin-bottom: 60px;
+}
+
+
+.title span {
+    display: block;
+    color: #2864e8;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+
+.title h2 {
+    color: #10192e;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+    margin: 0;
+}
+
+
+/* =========================================
+   FAQ BOXES
+========================================= */
+
+.faq-box {
+    position: relative;
+    width: 89.4%;
+    max-width: 1600px;
+    min-height: 125px;
+    margin: 0 auto 20px;
+    padding: 29px 60px 27px 30px;
+
+    background: #eff6ff;
+    border: none;
+    border-radius: 11px;
+
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+
+.faq-box:hover {
+    background: #eaf3ff;
+}
+
+
+/* =========================================
+   FAQ QUESTION
+========================================= */
+
+.faq-box h3 {
+    margin: 0;
+
+    color: #374863;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7;
+
+    display: none;
+}
+
+
+/* =========================================
+   FAQ ARROW
+========================================= */
+
+.faq-box h3::after {
+    content: "";
+    position: absolute;
+
+    top: 6px;
+    right: -27px;
+
+    width: 8px;
+    height: 8px;
+
+    border-right: 2.5px solid #2864e8;
+    border-bottom: 2.5px solid #2864e8;
+
+    transform: rotate(45deg);
+    transition: transform 0.25s ease;
+}
+
+
+/* =========================================
+   FAQ ANSWER
+========================================= */
+
+.faq-box p {
+    margin: 0;
+
+    color: #374863;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7;
+
+    display: none;
+}
+
+
+/* =========================================
+   FAQ OPEN STATE
+========================================= */
+
+.faq-box.open p {
+    display: block;
+}
+
+
+.faq-box.open h3::after {
+    transform: rotate(225deg);
+}
+
+
+/* =========================================
+   FAQ TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .faq {
+        padding: 25px 0 50px;
+    }
+
+    .title {
+        margin-bottom: 45px;
+    }
+
+    .title h2 {
+        font-size: 34px;
+    }
+
+    .faq-box {
+        width: 90%;
+        min-height: 115px;
+        padding: 26px 50px 25px 25px;
+    }
+
+    .faq-box h3 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .faq-box p {
+        font-size: 16px;
+    }
+
+    .faq-box h3::after {
+        right: -25px;
+    }
+}
+
+
+/* =========================================
+   FAQ MOBILE
+========================================= */
+
+@media (max-width: 700px) {
+
+    .faq {
+        padding: 30px 0 40px;
+    }
+
+    .title {
+        margin-bottom: 35px;
+        padding: 0 15px;
+    }
+
+    .title span {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    .title h2 {
+        font-size: 28px;
+        line-height: 1.25;
+        letter-spacing: -0.5px;
+    }
+
+    .faq-box {
+        width: 92%;
+        min-height: auto;
+        padding: 23px 42px 23px 20px;
+        margin-bottom: 15px;
+        border-radius: 9px;
+    }
+
+    .faq-box h3 {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .faq-box p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .faq-box h3::after {
+        top: 6px;
+        right: -22px;
+        width: 7px;
+        height: 7px;
+    }
+
+}
+
+
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    background: #10192e;
+
+    color: #71819d;
+
+    padding: 62px 8% 30px;
+}
+
+
+.footer-container {
+    display: grid;
+
+    grid-template-columns: 1.4fr 0.9fr 0.9fr;
+
+    gap: 100px;
+
+    padding-bottom: 55px;
+}
+
+
+/* =========================================
+   FOOTER HEADINGS
+========================================= */
+
+.footer-container h3 {
+    color: white;
+
+    font-size: 16px;
+
+    margin-bottom: 22px;
+}
+
+
+.footer-container > div:first-child h3 {
+    font-size: 20px;
+
+    color: white;
+}
+
+
+.footer-container p {
+    line-height: 1.6;
+
+    font-size: 15px;
+}
+
+
+.footer-container h4 {
+    color: #2e82ff;
+
+    margin-top: 18px;
+}
+
+
+/* =========================================
+   FOOTER LINKS
+========================================= */
+
+.footer-container a {
+    display: block;
+
+    color: #71819d;
+
+    margin-bottom: 15px;
+
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+
+.footer-container a:hover {
+    color: white;
+}
+
+
+/* =========================================
+   HORIZONTAL LINE
+========================================= */
+
+footer hr {
+    border: none;
+
+    border-top: 1px solid rgba(255,255,255,0.08);
+
+    margin: 0 0 28px;
+}
+
+
+/* =========================================
+   FOOTER BOTTOM
+========================================= */
+
+.bottom {
+    font-size: 14px;
+
+    color: #71819d;
+}
+
+
+/* =========================================
+   RESPONSIVE TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .navbar {
+        padding: 0 5%;
+    }
+
+
+    .navbar nav ul {
+        gap: 20px;
+    }
+
+
+    .navbar nav {
+        margin-right: 20px;
+    }
+
+
+    .contact-section {
+        padding-left: 5%;
+
+        padding-right: 5%;
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .map {
+        padding-left: 5%;
+
+        padding-right: 5%;
+    }
+
+
+    .faq {
+        padding-left: 5%;
+
+        padding-right: 5%;
+    }
+
+
+    footer {
+        padding-left: 5%;
+
+        padding-right: 5%;
+    }
+
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* =========================================
+   RESPONSIVE MOBILE
+========================================= */
+
+@media (max-width: 700px) {
+
+    .navbar {
+        height: 72px;
+
+        padding: 0 20px;
+    }
+
+
+    .navbar nav {
+        display: none;
+    }
+
+
+    .navbar .btn {
+        display: none;
+    }
+
+
+    .logo {
+        font-size: 15px;
+    }
+
+
+    /* =====================================
+       HERO
+    ===================================== */
+
+    .hero {
+        min-height: 310px;
+
+        padding: 55px 20px;
+    }
+
+
+    .hero h1 {
+        font-size: 40px;
+
+        letter-spacing: -1px;
+    }
+
+
+    .hero p {
+        font-size: 16px;
+    }
+
+
+}
+/* FAQ CONTENT VISIBILITY FIX */
+
+.faq .title {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.faq .title span,
+.faq .title h2 {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    text-align: center !important;
+}
+
+.faq .faq-box {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: #10192e !important;
+}
+
+.faq .faq-box h3 {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: #111a30 !important;
+}
+
+.faq .faq-box p {
+    color: #40516c !important;
+}
+/* FAQ QUESTION */
+
+.faq-box h3 {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0 35px 0 0;
+    margin: 0;
+
+    color: #111a30;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+
+    cursor: pointer;
+}
+
+
+/* ARROW INSIDE THE BOX */
+
+.faq-box h3::after {
+    content: "";
+    position: absolute;
+
+    right: 0;
+    top: 7px;
+
+    width: 8px;
+    height: 8px;
+
+    border-right: 2.5px solid #2864e8;
+    border-bottom: 2.5px solid #2864e8;
+
+    transform: rotate(45deg);
+    transition: transform 0.25s ease;
+}
+
+
+/* ANSWER */
+
+.faq-box p {
+    display: none;
+
+    margin: 15px 0 0;
+    padding: 0;
+
+    color: #374863;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+
+/* OPEN ANSWER */
+
+.faq-box.open p {
+    display: block !important;
+}
+
+
+/* ROTATE ARROW WHEN OPEN */
+
+.faq-box.open h3::after {
+    transform: rotate(225deg);
+}
+
+
+/* FAQ BOX */
+
+.faq-box {
+    position: relative;
+    width: 89.4%;
+    max-width: 1600px;
+    margin: 0 auto 20px;
+    padding: 29px 30px;
+
+    background: #eff6ff;
+    border-radius: 11px;
+    box-sizing: border-box;
+}
+
+/* FAQ ANSWER VISIBILITY FIX */
+
+.faq .faq-box p {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+
+    height: auto !important;
+    max-height: none !important;
+
+    overflow: visible !important;
+
+    margin-top: 15px !important;
+    margin-bottom: 0 !important;
+
+    color: #374863 !important;
+    font-size: 17px !important;
+    line-height: 1.7 !important;
+}
+
+/* =========================================
+   QUIZ SECTION
+========================================= */
+/* =========================================
+   TRINOVA QUIZ PAGE
+   All styles scoped to .quiz-page
+========================================= */
+
+.quiz-page {
+    --quiz-blue: #2862f5;
+    --quiz-blue-dark: #2058e9;
+    --quiz-heading: #111a2e;
+    --quiz-text: #3d4c66;
+    --quiz-muted: #657895;
+    --quiz-border: #dce5f1;
+    --quiz-light-blue: #eff6ff;
+    --quiz-white: #ffffff;
+    --quiz-footer: #0f172b;
+
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: var(--quiz-text);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.quiz-page *,
+.quiz-page *::before,
+.quiz-page *::after {
+    box-sizing: border-box;
+}
+
+.quiz-page a {
+    text-decoration: none;
+}
+
+.quiz-page button {
+    font: inherit;
+}
+
+.quiz-page img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.quiz-page .quiz-navbar {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    min-height: 94px;
+    padding: 0 5.2%;
+    background: #ffffff;
+    border-bottom: 1px solid #e5eaf2;
+
+    display: grid;
+    grid-template-columns: 150px 1fr 160px;
+    align-items: center;
+    gap: 24px;
+}
+
+.quiz-page .quiz-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 110px;
+}
+
+.quiz-page .quiz-logo img {
+    width: 78px;
+    max-height: 62px;
+    object-fit: contain;
+}
+
+.quiz-page .quiz-nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+}
+
+.quiz-page .quiz-nav-links a {
+    color: #344158;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.quiz-page .quiz-nav-links a:hover,
+.quiz-page .quiz-nav-links a.nav-active {
+    color: var(--quiz-blue);
+}
+
+.quiz-page .quiz-nav-links a.nav-active {
+    font-weight: 700;
+}
+
+.quiz-page .quiz-start-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 156px;
+    min-height: 44px;
+    padding: 10px 16px;
+
+    color: #ffffff;
+    background: var(--quiz-blue);
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+
+    transition: background 0.2s ease;
+}
+
+.quiz-page .quiz-start-button:hover {
+    background: var(--quiz-blue-dark);
+}
+
+.quiz-page .quiz-menu-toggle {
+    display: none;
+    border: 0;
+    background: transparent;
+    color: var(--quiz-heading);
+    font-size: 27px;
+    cursor: pointer;
+}
+
+
+/* =========================================
+   HERO SECTION
+========================================= */
+
+.quiz-page .quiz-hero {
+    width: 100%;
+    min-height: 384px;
+    padding: 94px 24px 80px;
+    background: #ffffff;
+    text-align: center;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.quiz-page .quiz-hero-content {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.quiz-page .quiz-eyebrow {
+    display: inline-block;
+    padding: 6px 15px;
+    margin-bottom: 21px;
+
+    color: var(--quiz-blue);
+    background: #eff6ff;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.quiz-page .quiz-hero h1 {
+    margin: 0 0 21px;
+    color: var(--quiz-heading);
+
+    font-size: 48px;
+    font-weight: 750;
+    line-height: 1.2;
+    letter-spacing: -1.2px;
+}
+
+.quiz-page .quiz-hero p {
+    margin: 0 auto;
+    max-width: 1000px;
+
+    color: #3b4a64;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+
+/* =========================================
+   MAIN QUIZ AREA
+========================================= */
+
+.quiz-page .quiz-main {
+    width: 100%;
+    padding: 94px 8.4% 96px;
+    background: #eff6ff;
+
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(330px, 1fr);
+    align-items: start;
+    gap: 46px;
+}
+
+
+/* =========================================
+   QUESTION CARD
+========================================= */
+
+.quiz-page .quiz-card {
+    min-width: 0;
+    padding: 42px 46px 45px;
+
+    background: #ffffff;
+    border: 1px solid #e0e8f2;
+    border-radius: 14px;
+
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.035);
+}
+
+.quiz-page .quiz-progress-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 17px;
+}
+
+.quiz-page #questionCounter {
+    color: var(--quiz-blue);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.quiz-page #questionCompletion {
+    color: var(--quiz-muted);
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.quiz-page .quiz-progress-track {
+    width: 100%;
+    height: 9px;
+    margin-bottom: 37px;
+
+    overflow: hidden;
+    background: #edf4ff;
+    border-radius: 20px;
+}
+
+.quiz-page .quiz-progress-bar {
+    width: 6.6667%;
+    height: 100%;
+    background: var(--quiz-blue);
+    border-radius: 20px;
+
+    transition: width 0.25s ease;
+}
+
+.quiz-page .quiz-question {
+    margin: 0 0 36px;
+    color: var(--quiz-heading);
+
+    font-size: 27px;
+    font-weight: 750;
+    line-height: 1.4;
+    letter-spacing: -0.45px;
+}
+
+
+/* =========================================
+   ANSWER OPTIONS
+========================================= */
+
+.quiz-page .quiz-answers {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.quiz-page .quiz-answer-option {
+    position: relative;
+    width: 100%;
+    min-height: 68px;
+    padding: 16px 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 19px;
+
+    text-align: left;
+    color: #3d4c66;
+    background: #ffffff;
+
+    border: 1px solid #dce5f1;
+    border-radius: 12px;
+
+    font-size: 17px;
+    line-height: 1.55;
+    cursor: pointer;
+
+    transition:
+        border-color 0.15s ease,
+        background 0.15s ease,
+        box-shadow 0.15s ease;
+}
+
+.quiz-page .quiz-answer-option:hover {
+    border-color: #7ca4ff;
+    background: #f9fbff;
+}
+
+.quiz-page .quiz-answer-option.selected {
+    border: 2px solid var(--quiz-blue);
+    padding: 15px 19px;
+    background: #eff6ff;
+}
+
+.quiz-page .quiz-radio {
+    flex: 0 0 26px;
+    width: 26px;
+    height: 26px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #6d7f99;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.quiz-page .quiz-answer-option.selected .quiz-radio {
+    border-color: var(--quiz-blue);
+    border-width: 2px;
+}
+
+.quiz-page .quiz-answer-option.selected .quiz-radio::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    display: block;
+
+    border-radius: 50%;
+    background: var(--quiz-blue);
+}
+
+.quiz-page .quiz-answer-letter {
+    flex: 0 0 20px;
+    color: #111a2e;
+    font-weight: 700;
+}
+
+.quiz-page .quiz-answer-text {
+    min-width: 0;
+    flex: 1;
+}
+
+
+/* =========================================
+   FEEDBACK AND BUTTONS
+========================================= */
+
+.quiz-page .quiz-feedback {
+    margin-top: 18px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.quiz-page .quiz-feedback:empty {
+    display: none;
+}
+
+.quiz-page .quiz-feedback.error {
+    color: #c2410c;
+}
+
+.quiz-page .quiz-feedback.success {
+    color: #16803d;
+}
+
+.quiz-page .quiz-card-divider {
+    width: 100%;
+    height: 1px;
+    margin: 36px 0 38px;
+    background: #e1e8f1;
+}
+
+.quiz-page .quiz-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.quiz-page .quiz-previous-button,
+.quiz-page .quiz-next-button {
+    min-height: 49px;
+    padding: 12px 27px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+
+    transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.quiz-page .quiz-previous-button {
+    color: #64758f;
+    background: #ffffff;
+    border: 1px solid #dce5f1;
+}
+
+.quiz-page .quiz-previous-button:hover:not(:disabled) {
+    background: #f7faff;
+    border-color: #b7c8e0;
+}
+
+.quiz-page .quiz-previous-button:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+.quiz-page .quiz-next-button {
+    min-width: 192px;
+    color: #ffffff;
+    background: var(--quiz-blue);
+    border: 1px solid var(--quiz-blue);
+}
+
+.quiz-page .quiz-next-button:hover {
+    background: var(--quiz-blue-dark);
+    border-color: var(--quiz-blue-dark);
+}
+
+
+/* =========================================
+   GUIDELINES CARD
+========================================= */
+
+.quiz-page .quiz-guidelines {
+    min-width: 0;
+    padding: 34px 36px 32px;
+
+    background: #ffffff;
+    border: 1px solid #e0e8f2;
+    border-radius: 14px;
+
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.025);
+}
+
+.quiz-page .quiz-guidelines h2 {
+    margin: 0;
+    color: var(--quiz-heading);
+    font-size: 22px;
+    font-weight: 750;
+    line-height: 1.4;
+}
+
+.quiz-page .guideline-divider {
+    width: 100%;
+    height: 1px;
+    margin: 19px 0 22px;
+    background: #dfe7f1;
+}
+
+.quiz-page .guideline-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quiz-page .guideline-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.quiz-page .guideline-check {
+    flex: 0 0 22px;
+    width: 22px;
+    height: 22px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--quiz-blue);
+    border: 2px solid var(--quiz-blue);
+    border-radius: 50%;
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.quiz-page .guideline-list p {
+    margin: 0;
+    color: #3d4c66;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+.quiz-page .guideline-list strong {
+    color: #35445e;
+    font-weight: 700;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.quiz-page .quiz-footer {
+    width: 100%;
+    padding: 60px 8.4% 0;
+    background: var(--quiz-footer);
+    color: #697b98;
+}
+
+.quiz-page .quiz-footer-main {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr 0.8fr;
+    gap: 90px;
+    padding-bottom: 42px;
+}
+
+.quiz-page .quiz-footer-logo {
+    display: inline-flex;
+    margin-bottom: 16px;
+}
+
+.quiz-page .quiz-footer-logo img {
+    width: 76px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.quiz-page .quiz-footer-brand p {
+    max-width: 370px;
+    margin: 0 0 17px;
+    color: #697b98;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.quiz-page .quiz-footer-brand strong {
+    color: #3182ff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.quiz-page .quiz-footer h3 {
+    margin: 8px 0 15px;
+    color: #f7f9ff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.quiz-page .quiz-footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.quiz-page .quiz-footer-links a {
+    color: #697b98;
+    font-size: 16px;
+    transition: color 0.2s ease;
+}
+
+.quiz-page .quiz-footer-links a:hover,
+.quiz-page .quiz-footer-bottom a:hover {
+    color: #ffffff;
+}
+
+.quiz-page .quiz-footer-contact p {
+    margin: 0 0 13px;
+    color: #697b98;
+    font-size: 16px;
+    overflow-wrap: anywhere;
+}
+
+.quiz-page .quiz-footer-contact p span {
+    display: inline-block;
+    width: 25px;
+    color: #3182ff;
+    font-weight: 700;
+}
+
+.quiz-page .quiz-footer-bottom {
+    min-height: 66px;
+    border-top: 1px solid #263148;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.quiz-page .quiz-footer-bottom p {
+    margin: 0;
+    color: #697b98;
+    font-size: 15px;
+}
+
+.quiz-page .quiz-footer-bottom div {
+    display: flex;
+    gap: 18px;
+}
+
+.quiz-page .quiz-footer-bottom a {
+    color: #697b98;
+    font-size: 14px;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1150px) {
+    .quiz-page .quiz-navbar {
+        grid-template-columns: 95px 1fr 145px;
+        gap: 14px;
+        padding: 0 4%;
+    }
+
+    .quiz-page .quiz-nav-links {
+        gap: 20px;
+    }
+
+    .quiz-page .quiz-nav-links a {
+        font-size: 15px;
+    }
+
+    .quiz-page .quiz-main {
+        padding: 65px 5%;
+        grid-template-columns: minmax(0, 1.8fr) minmax(280px, 1fr);
+        gap: 25px;
+    }
+
+    .quiz-page .quiz-card {
+        padding: 32px 28px;
+    }
+
+    .quiz-page .quiz-guidelines {
+        padding: 28px 24px;
+    }
+
+    .quiz-page .quiz-footer-main {
+        gap: 45px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 760px) {
+    .quiz-page .quiz-navbar {
+        min-height: 76px;
+        padding: 0 20px;
+        grid-template-columns: 1fr auto auto;
+        gap: 15px;
+    }
+
+    .quiz-page .quiz-logo img {
+        width: 70px;
+        max-height: 52px;
+    }
+
+    .quiz-page .quiz-menu-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quiz-page .quiz-nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+
+        display: none;
+        align-items: stretch;
+        gap: 0;
+
+        padding: 10px 20px 18px;
+        background: #ffffff;
+        border-bottom: 1px solid #e5eaf2;
+        box-shadow: 0 10px 18px rgba(15, 23, 42, 0.06);
+    }
+
+    .quiz-page .quiz-nav-links.menu-open {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quiz-page .quiz-nav-links a {
+        padding: 11px 5px;
+        font-size: 16px;
+    }
+
+    .quiz-page .quiz-start-button {
+        width: auto;
+        min-height: 40px;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 8px;
+    }
+
+    .quiz-page .quiz-hero {
+        min-height: auto;
+        padding: 66px 22px 62px;
+    }
+
+    .quiz-page .quiz-eyebrow {
+        margin-bottom: 18px;
+        font-size: 12px;
+    }
+
+    .quiz-page .quiz-hero h1 {
+        margin-bottom: 18px;
+        font-size: 34px;
+        letter-spacing: -0.7px;
+    }
+
+    .quiz-page .quiz-hero p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .quiz-page .desktop-break {
+        display: none;
+    }
+
+    .quiz-page .quiz-main {
+        padding: 36px 18px 50px;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 25px;
+    }
+
+    .quiz-page .quiz-card {
+        padding: 25px 20px;
+        border-radius: 12px;
+    }
+
+    .quiz-page .quiz-progress-heading {
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .quiz-page #questionCounter {
+        font-size: 15px;
+    }
+
+    .quiz-page #questionCompletion {
+        font-size: 14px;
+    }
+
+    .quiz-page .quiz-progress-track {
+        margin-bottom: 28px;
+    }
+
+    .quiz-page .quiz-question {
+        margin-bottom: 25px;
+        font-size: 22px;
+        line-height: 1.45;
+    }
+
+    .quiz-page .quiz-answers {
+        gap: 11px;
+    }
+
+    .quiz-page .quiz-answer-option {
+        min-height: 62px;
+        padding: 13px;
+        gap: 12px;
+        font-size: 15px;
+    }
+
+    .quiz-page .quiz-answer-option.selected {
+        padding: 12px;
+    }
+
+    .quiz-page .quiz-radio {
+        flex-basis: 23px;
+        width: 23px;
+        height: 23px;
+    }
+
+    .quiz-page .quiz-answer-option.selected .quiz-radio::after {
+        width: 10px;
+        height: 10px;
+    }
+
+    .quiz-page .quiz-answer-letter {
+        flex-basis: 18px;
+    }
+
+    .quiz-page .quiz-card-divider {
+        margin: 27px 0;
+    }
+
+    .quiz-page .quiz-previous-button,
+    .quiz-page .quiz-next-button {
+        min-height: 45px;
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .quiz-page .quiz-next-button {
+        min-width: 145px;
+    }
+
+    .quiz-page .quiz-guidelines {
+        padding: 27px 22px;
+    }
+
+    .quiz-page .quiz-guidelines h2 {
+        font-size: 21px;
+    }
+
+    .quiz-page .guideline-list p {
+        font-size: 15px;
+    }
+
+    .quiz-page .quiz-footer {
+        padding: 42px 22px 0;
+    }
+
+    .quiz-page .quiz-footer-main {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding-bottom: 32px;
+    }
+
+    .quiz-page .quiz-footer-bottom {
+        padding: 18px 0;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .quiz-page .quiz-footer-bottom p {
+        font-size: 13px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 390px) {
+    .quiz-page .quiz-navbar {
+        padding: 0 12px;
+        gap: 8px;
+    }
+
+    .quiz-page .quiz-start-button {
+        padding: 8px 9px;
+        font-size: 12px;
+    }
+
+    .quiz-page .quiz-hero h1 {
+        font-size: 30px;
+    }
+
+    .quiz-page .quiz-main {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .quiz-page .quiz-card {
+        padding: 22px 14px;
+    }
+
+    .quiz-page .quiz-navigation {
+        gap: 8px;
+    }
+
+    .quiz-page .quiz-next-button {
+        min-width: 125px;
+    }
+}
+
+
+
+
+
+
+
+/*DEMO*/
+
+/* =========================================
+   GLOBAL RESET
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #111a2e;
+}
+
+button,
+a {
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    width: 100%;
+    padding: 20px 0;
+    box-sizing: border-box;;
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 1590px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 46px;
+}
+
+
+/* LOGO */
+
+.logo {
+    width: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 72px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+/* NAV MENU */
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.nav-menu a {
+   color: #24364b;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+     color: #245dff;
+}
+
+.nav-menu a.active {
+    color: #245dff;
+    font-weight: 700;
+}
+
+
+/* TRAINING BUTTON */
+
+.training-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 166px;
+    height: 47px;
+
+    background: #2867e8;
+    color: white;
+
+    border-radius: 11px;
+
+    font-size: 17px;
+    font-weight: 700;
+
+    transition: 0.2s ease;
+}
+
+.training-btn:hover {
+    background: #1f58ce;
+    transform: translateY(-1px);
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero-section {
+    background: #ffffff;
+
+    min-height: 407px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 70px 30px 82px;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 1100px;
+}
+
+
+/* BADGE */
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #edf4ff;
+    color: #2867e8;
+
+    border-radius: 7px;
+
+    padding: 8px 15px;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    margin-bottom: 27px;
+}
+
+
+/* HERO TITLE */
+
+.hero-content h1 {
+    color: #10182c;
+
+    font-size: 52px;
+    line-height: 1.12;
+
+    font-weight: 800;
+
+    letter-spacing: -1.2px;
+
+    margin-bottom: 26px;
+}
+
+
+/* HERO DESCRIPTION */
+
+.hero-content p {
+    color: #34435c;
+
+    font-size: 20px;
+    line-height: 1.65;
+
+    font-weight: 400;
+}
+
+
+/* =========================================
+   DEMO SECTION
+========================================= */
+
+.demo-section {
+    background: #eef6ff;
+
+    padding: 34px 5.5% 96px;
+
+    min-height: 820px;
+}
+
+.demo-container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   SANDBOX HEADER
+========================================= */
+
+.sandbox-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 29px;
+}
+
+.sandbox-title {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.sandbox-title h2 {
+    color: #111a2e;
+
+    font-size: 27px;
+    font-weight: 800;
+
+    letter-spacing: -0.4px;
+}
+
+.interactive-label {
+    display: inline-flex;
+    align-items: center;
+
+    background: #fff1c7;
+    color: #dc7a00;
+
+    padding: 7px 11px;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* THREAT COUNTER */
+
+.threat-counter {
+    color: #2867e8;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.threat-counter span {
+    font-weight: 800;
+}
+
+
+/* =========================================
+   WORKSTATION IMAGE
+========================================= */
+
+.workstation-wrapper {
+    position: relative;
+
+    width: 100%;
+
+    overflow: hidden;
+
+    border-radius: 18px;
+
+    background: #dce5f0;
+
+    line-height: 0;
+}
+
+.workstation-image {
+    width: 100%;
+    height: auto;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+/* =========================================
+   HOTSPOTS
+========================================= */
+
+.hotspot {
+    position: absolute;
+
+    width: 47px;
+    height: 47px;
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    border: 3px solid #ffffff;
+
+    background: #2867e8;
+
+    color: #ffffff;
+
+    font-size: 18px;
+    font-weight: 800;
+
+    cursor: pointer;
+
+    line-height: 1;
+
+    box-shadow:
+        0 3px 8px rgba(20, 67, 145, 0.28);
+
+    transition:
+        transform 0.18s ease,
+        background 0.18s ease,
+        box-shadow 0.18s ease;
+}
+
+.hotspot:hover {
+    transform: translate(-50%, -50%) scale(1.12);
+
+    background: #1559d6;
+
+    box-shadow:
+        0 5px 14px rgba(20, 67, 145, 0.38);
+}
+
+.hotspot.found {
+    background: #19a463;
+
+    box-shadow:
+        0 4px 12px rgba(25, 164, 99, 0.35);
+}
+
+
+/* =========================================
+   GUIDE SECTION
+========================================= */
+
+.guide-section {
+    background: #ffffff;
+
+    border-radius: 15px;
+
+    margin-top: 27px;
+
+    padding: 37px 38px 39px;
+
+    box-shadow:
+        0 4px 16px rgba(42, 69, 103, 0.08);
+}
+
+
+/* GUIDE HEADER */
+
+.guide-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.guide-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.guide-title h2 {
+    color: #111a2e;
+
+    font-size: 27px;
+    font-weight: 800;
+
+    letter-spacing: -0.5px;
+}
+
+.critical-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #f04444;
+    color: #ffffff;
+
+    padding: 7px 13px;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.guide-header > p {
+    color: #667792;
+
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* DIVIDER */
+
+.guide-divider {
+    width: 100%;
+    height: 1px;
+
+    background: #e0e6ef;
+
+    margin: 22px 0 23px;
+}
+
+
+/* =========================================
+   THREAT GRID
+========================================= */
+
+.threat-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 28px;
+}
+
+
+/* THREAT CARD */
+
+.threat-card {
+    min-height: 136px;
+
+    padding: 23px 25px;
+
+    border-radius: 12px;
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+}
+
+.threat-card h3 {
+    font-size: 20px;
+    line-height: 1.3;
+
+    font-weight: 800;
+
+    margin-bottom: 13px;
+}
+
+.threat-card p {
+    color: #34445f;
+
+    font-size: 17px;
+    line-height: 1.5;
+
+    font-weight: 400;
+}
+
+
+/* BLUE CARD */
+
+.blue-card {
+    background: #edf5ff;
+}
+
+.blue-card h3 {
+    color: #2867e8;
+}
+
+
+/* YELLOW CARD */
+
+.yellow-card {
+    background: #fff4c8;
+}
+
+.yellow-card h3 {
+    color: #dc7900;
+}
+
+
+/* HIDDEN THREATS */
+
+.hidden-threat {
+    display: none;
+}
+
+.threat-card.revealed {
+    display: block;
+
+    animation: cardReveal 0.3s ease;
+}
+
+@keyframes cardReveal {
+
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.footer {
+    background: #0d172b;
+
+    color: #ffffff;
+
+    padding: 65px 5.5% 35px;
+}
+
+.footer-container {
+    max-width: 1600px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: 1.5fr 1fr 1fr;
+
+    gap: 100px;
+}
+
+
+/* FOOTER ABOUT */
+
+.footer-logo {
+    width: 75px;
+    height: auto;
+
+    margin-bottom: 17px;
+}
+
+.footer-about p {
+    max-width: 390px;
+
+    color: #73829d;
+
+    font-size: 17px;
+    line-height: 1.55;
+
+    margin-bottom: 20px;
+}
+
+.footer-about strong {
+    color: #3280f5;
+
+    font-size: 17px;
+
+    font-weight: 700;
+}
+
+
+/* FOOTER HEADINGS */
+
+.footer h3 {
+    color: #ffffff;
+
+    font-size: 17px;
+    font-weight: 700;
+
+    margin-bottom: 24px;
+}
+
+
+/* FOOTER LINKS */
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: #71809b;
+
+    font-size: 17px;
+
+    margin-bottom: 18px;
+
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+
+/* CONTACT */
+
+.footer-contact p {
+    display: flex;
+    align-items: center;
+
+    gap: 13px;
+
+    color: #71809b;
+
+    font-size: 17px;
+
+    margin-bottom: 18px;
+}
+
+.contact-icon {
+    width: 20px;
+
+    color: #3280f5;
+
+    font-size: 20px;
+
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+/* =========================================
+   FOOTER BOTTOM
+========================================= */
+
+.footer-bottom {
+    max-width: 1600px;
+
+    margin: 32px auto 0;
+
+    padding-top: 47px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.09);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom p {
+    color: #687894;
+
+    font-size: 16px;
+}
+
+.footer-bottom-links {
+    display: flex;
+
+    gap: 7px;
+}
+
+.footer-bottom-links a {
+    color: #687894;
+
+    font-size: 16px;
+
+    transition: color 0.2s ease;
+}
+
+.footer-bottom-links a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom-links a:not(:last-child)::after {
+    content: " • ";
+
+    margin-left: 7px;
+}
+
+
+/* =========================================
+   RESPONSIVE - TABLET
+========================================= */
+
+@media (max-width: 1100px) {
+
+    .nav-container {
+        padding: 0 28px;
+    }
+
+    .nav-menu {
+        gap: 22px;
+        margin-right: 25px;
+    }
+
+    .nav-menu a {
+        font-size: 16px;
+    }
+
+    .training-btn {
+        min-width: 140px;
+    }
+
+    .hero-content h1 {
+        font-size: 44px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .demo-section {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .footer-container {
+        gap: 50px;
+    }
+
+}
+
+
+/* =========================================
+   RESPONSIVE - MOBILE
+========================================= */
+
+@media (max-width: 800px) {
+
+    .navbar {
+        height: auto;
+    }
+
+    .nav-container {
+        padding: 18px 22px;
+
+        flex-wrap: wrap;
+
+        gap: 18px;
+    }
+
+    .logo {
+        width: auto;
+    }
+
+    .nav-menu {
+        order: 3;
+
+        width: 100%;
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 17px;
+
+        margin: 0;
+    }
+
+    .training-btn {
+        min-width: 130px;
+        height: 43px;
+
+        font-size: 15px;
+    }
+
+
+    /* HERO */
+
+    .hero-section {
+        min-height: auto;
+
+        padding: 65px 20px 70px;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-content p {
+        font-size: 17px;
+    }
+
+
+    /* SANDBOX */
+
+    .demo-section {
+        padding: 30px 18px 70px;
+    }
+
+    .sandbox-header {
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        gap: 15px;
+    }
+
+    .sandbox-title h2 {
+        font-size: 23px;
+    }
+
+    .threat-counter {
+        font-size: 17px;
+    }
+
+
+    /* IMAGE */
+
+    .workstation-wrapper {
+        border-radius: 13px;
+
+        overflow-x: auto;
+    }
+
+    .workstation-image {
+        min-width: 800px;
+
+        max-width: none;
+    }
+
+    .hotspot {
+        width: 42px;
+        height: 42px;
+
+        font-size: 16px;
+    }
+
+
+    /* GUIDE */
+
+    .guide-section {
+        padding: 27px 20px;
+    }
+
+    .guide-header {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 15px;
+    }
+
+    .guide-title {
+        flex-wrap: wrap;
+
+        gap: 12px;
+    }
+
+    .guide-title h2 {
+        font-size: 23px;
+    }
+
+    .guide-header > p {
+        font-size: 15px;
+    }
+
+    .threat-grid {
+        grid-template-columns: 1fr;
+
+        gap: 17px;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        padding: 55px 25px 30px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 20px;
+
+        padding-top: 30px;
+    }
+
+    .footer-bottom-links {
+        flex-wrap: wrap;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    .hero-content h1 {
+        font-size: 31px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-content p br {
+        display: none;
+    }
+
+    .sandbox-title {
+        flex-wrap: wrap;
+    }
+
+    .sandbox-title h2 {
+        font-size: 21px;
+    }
+
+    .guide-title h2 {
+        font-size: 21px;
+    }
+
+    .threat-card h3 {
+        font-size: 18px;
+    }
+
+    .threat-card p {
+        font-size: 15px;
+    }
+
+}
+
+/* Fix: Remove unwanted text beside the logo */
+.site-header .brand-logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    isolation: isolate;
+}
+
+.site-header .brand-logo::before,
+.site-header .brand-logo::after {
+    content: none !important;
+    display: none !important;
+}
+
+.site-header .brand-logo img {
+    display: block;
+    width: 72px;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
+}
+
+/* Prevent inherited text decorations and generated content */
+.site-header .brand-logo::first-letter {
+    color: inherit;
+}
+
+
+/* Remove unwanted T beside the logo */
+.navbar .nav-container > .logo {
+    position: relative !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+}
+
+.navbar .nav-container > .logo::before,
+.navbar .nav-container > .logo::after {
+    content: none !important;
+    display: none !important;
+}
+
+.navbar .nav-container > .logo img {
+    display: block !important;
+    width: 72px !important;
+    height: auto !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+}

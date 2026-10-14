@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Knowledge Quiz | TRINOVA</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="quiz-page">
+
+    <!-- NAVBAR -->
+    <header class="quiz-navbar">
+        <a href="home.html" class="quiz-logo" aria-label="TRINOVA Home">
+          
+            <img src="images/trinova-logo.png" alt="TRINOVA Logo">
+        </a>
+
+        <button class="quiz-menu-toggle"
+                id="mobileMenuButton"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="quiz-nav-links" id="quizNavLinks">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="training.html">Training</a>
+            <a href="demo.html">360° Demo</a>
+            <a href="index.html" class="nav-active" aria-current="page">Quiz</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="training.html" class="quiz-start-button">
+            Start Training
+        </a>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="quiz-hero">
+        <div class="quiz-hero-content">
+            <span class="quiz-eyebrow">TEST YOUR KNOWLEDGE</span>
+
+            <h1>Cybersecurity Knowledge Quiz</h1>
+
+            <p>
+                Verify and reinforce your security literacy best practices.
+                Complete this evaluation scenario challenge to<br class="desktop-break">
+                test your preparedness against phishing, passwords,
+                browser scams, and physical device hazards.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- QUIZ SECTION -->
+    <main class="quiz-main" id="quiz">
+
+        <section class="quiz-card" aria-label="Cybersecurity quiz">
+
+            <div class="quiz-progress-heading">
+                <span id="questionCounter">Question 1 of 15</span>
+                <span id="questionCompletion">6% Complete</span>
+            </div>
+
+            <div
+                class="quiz-progress-track"
+                id="progressTrack"
+                role="progressbar"
+                aria-label="Quiz progress"
+                aria-valuemin="0"
+                aria-valuemax="15"
+                aria-valuenow="1">
+                <div class="quiz-progress-bar" id="progressBar"></div>
+            </div>
+
+            <div id="questionContent">
+                <h2 class="quiz-question" id="questionHeading">
+                    Which of the following is the strongest indicator of a phishing email?
+                </h2>
+
+                <div class="quiz-answers" id="answerOptions"></div>
+            </div>
+
+            <div class="quiz-feedback" id="quizFeedback" aria-live="polite"></div>
+
+            <div class="quiz-card-divider"></div>
+
+            <div class="quiz-navigation">
+                <button class="quiz-previous-button" id="previousQuestion" type="button">
+                    Previous
+                </button>
+
+                <button class="quiz-next-button" id="nextQuestion" type="button">
+                    Next Question
+                </button>
+            </div>
+
+        </section>
+
+
+        <!-- GUIDELINES -->
+        <aside class="quiz-guidelines" id="training">
+
+            <h2>Quiz Guidelines</h2>
+
+            <div class="guideline-divider"></div>
+
+            <ul class="guideline-list">
+                <li>
+                    <span class="guideline-check">✓</span>
+                    <p><strong>15 Questions</strong> covering all six curriculum modules.</p>
+                </li>
+
+                <li>
+                    <span class="guideline-check">✓</span>
+                    <p><strong>No Time Limit.</strong> Work comfortably at your own self-regulated speed.</p>
+                </li>
+
+                <li>
+                    <span class="guideline-check">✓</span>
+                    <p><strong>Review Options</strong> are allowed prior to final document submission.</p>
+                </li>
+
+                <li>
+                    <span class="guideline-check">✓</span>
+                    <p><strong>Score 80%</strong> or above to generate your certified certificate.</p>
+                </li>
+            </ul>
+
+        </aside>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="quiz-footer" id="contact">
+
+        <div class="quiz-footer-main">
+
+            <div class="quiz-footer-brand">
+                <a href="home.html" class="quiz-footer-logo">
+                    
+                    <img src="images/trinova-logoo.png" alt="TRINOVA Logo">
+                </a>
+
+                <p>
+                    Empowering teams with the knowledge and
+                    tools to identify, report, and prevent modern
+                    cybersecurity threats.
+                </p>
+
+                <strong>Learn. Detect. Defend.</strong>
+            </div>
+
+
+            <div class="quiz-footer-links">
+                <h3>Quick Links</h3>
+
+                <a href="home.html">Home</a>
+                <a href="about.html">About Platform</a>
+                <a href="training.html">Security Training</a>
+                <a href="demo.html">Interactive Demo</a>
+                <a href="index.html">Take Assessment</a>
+            </div>
+
+
+            <div class="quiz-footer-contact">
+                <h3>Contact Info</h3>
+
+                <p><span>✉</span> trinova360@gmail.com</p>
+                <p><span>♧</span> +977-9800000000</p>
+                <p><span>♙</span> Kathmandu, Nepal</p>
+            </div>
+
+        </div>
+
+        <div class="quiz-footer-bottom">
+            <p>© 2024 TRINOVA Cyber Awareness 360. All rights reserved.</p>
+
+            <div>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
